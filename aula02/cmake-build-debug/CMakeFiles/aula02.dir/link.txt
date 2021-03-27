@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/aula02.dir/oo_without_archives.cpp.o  -o aula02 
