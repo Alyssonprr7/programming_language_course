@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio2/secondQuestion/Dot.h
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio2/secondQuestion/Line.h
+Dot.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio2/secondQuestion/Dot.h
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio2/secondQuestion/main.cpp
+iostream
+-
+Dot.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio2/secondQuestion/Dot.h
+Line.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio2/secondQuestion/Line.h
+iomanip
+-
+
