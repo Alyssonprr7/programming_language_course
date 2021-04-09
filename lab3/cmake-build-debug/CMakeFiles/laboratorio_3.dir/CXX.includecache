@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.cpp
+agenda.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.h
+string
+-
+iostream
+-
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.h
+string
+-
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/main.cpp
+iostream
+-
+agenda.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.h
+string
+-
+
