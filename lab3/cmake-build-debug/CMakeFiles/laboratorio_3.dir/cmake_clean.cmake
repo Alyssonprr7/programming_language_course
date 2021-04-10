@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o"
-  "CMakeFiles/laboratorio_3.dir/second/main.cpp.o"
+  "CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o"
+  "CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o"
+  "CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o"
   "laboratorio_3"
   "laboratorio_3.pdb"
 )

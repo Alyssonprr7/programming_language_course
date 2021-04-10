@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/laboratorio_3.dir/second/main.cpp.o CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o -o laboratorio_3 
+/usr/bin/c++ -g CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o -o laboratorio_3 

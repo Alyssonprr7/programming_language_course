@@ -82,13 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.cpp">
+		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/agenda.cpp">
 			<Option target="laboratorio_3"/>
 		</Unit>
-		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.h">
+		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/agenda.h">
 			<Option target="laboratorio_3"/>
 		</Unit>
-		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/main.cpp">
+		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/cadastro.cpp">
+			<Option target="laboratorio_3"/>
+		</Unit>
+		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/cadastro.h">
+			<Option target="laboratorio_3"/>
+		</Unit>
+		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/main.cpp">
 			<Option target="laboratorio_3"/>
 		</Unit>
 		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/CMakeLists.txt">

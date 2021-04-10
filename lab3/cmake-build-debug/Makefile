@@ -142,59 +142,86 @@ laboratorio_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/build
 .PHONY : laboratorio_3/fast
 
-second/agenda.o: second/agenda.cpp.o
+fourth/agenda.o: fourth/agenda.cpp.o
 
-.PHONY : second/agenda.o
-
-# target to build an object file
-second/agenda.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o
-.PHONY : second/agenda.cpp.o
-
-second/agenda.i: second/agenda.cpp.i
-
-.PHONY : second/agenda.i
-
-# target to preprocess a source file
-second/agenda.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/second/agenda.cpp.i
-.PHONY : second/agenda.cpp.i
-
-second/agenda.s: second/agenda.cpp.s
-
-.PHONY : second/agenda.s
-
-# target to generate assembly for a file
-second/agenda.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/second/agenda.cpp.s
-.PHONY : second/agenda.cpp.s
-
-second/main.o: second/main.cpp.o
-
-.PHONY : second/main.o
+.PHONY : fourth/agenda.o
 
 # target to build an object file
-second/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/second/main.cpp.o
-.PHONY : second/main.cpp.o
+fourth/agenda.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o
+.PHONY : fourth/agenda.cpp.o
 
-second/main.i: second/main.cpp.i
+fourth/agenda.i: fourth/agenda.cpp.i
 
-.PHONY : second/main.i
+.PHONY : fourth/agenda.i
 
 # target to preprocess a source file
-second/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/second/main.cpp.i
-.PHONY : second/main.cpp.i
+fourth/agenda.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.i
+.PHONY : fourth/agenda.cpp.i
 
-second/main.s: second/main.cpp.s
+fourth/agenda.s: fourth/agenda.cpp.s
 
-.PHONY : second/main.s
+.PHONY : fourth/agenda.s
 
 # target to generate assembly for a file
-second/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/second/main.cpp.s
-.PHONY : second/main.cpp.s
+fourth/agenda.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.s
+.PHONY : fourth/agenda.cpp.s
+
+fourth/cadastro.o: fourth/cadastro.cpp.o
+
+.PHONY : fourth/cadastro.o
+
+# target to build an object file
+fourth/cadastro.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o
+.PHONY : fourth/cadastro.cpp.o
+
+fourth/cadastro.i: fourth/cadastro.cpp.i
+
+.PHONY : fourth/cadastro.i
+
+# target to preprocess a source file
+fourth/cadastro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.i
+.PHONY : fourth/cadastro.cpp.i
+
+fourth/cadastro.s: fourth/cadastro.cpp.s
+
+.PHONY : fourth/cadastro.s
+
+# target to generate assembly for a file
+fourth/cadastro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.s
+.PHONY : fourth/cadastro.cpp.s
+
+fourth/main.o: fourth/main.cpp.o
+
+.PHONY : fourth/main.o
+
+# target to build an object file
+fourth/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o
+.PHONY : fourth/main.cpp.o
+
+fourth/main.i: fourth/main.cpp.i
+
+.PHONY : fourth/main.i
+
+# target to preprocess a source file
+fourth/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/main.cpp.i
+.PHONY : fourth/main.cpp.i
+
+fourth/main.s: fourth/main.cpp.s
+
+.PHONY : fourth/main.s
+
+# target to generate assembly for a file
+fourth/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laboratorio_3.dir/build.make CMakeFiles/laboratorio_3.dir/fourth/main.cpp.s
+.PHONY : fourth/main.cpp.s
 
 # Help Target
 help:
@@ -205,12 +232,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... laboratorio_3"
-	@echo "... second/agenda.o"
-	@echo "... second/agenda.i"
-	@echo "... second/agenda.s"
-	@echo "... second/main.o"
-	@echo "... second/main.i"
-	@echo "... second/main.s"
+	@echo "... fourth/agenda.o"
+	@echo "... fourth/agenda.i"
+	@echo "... fourth/agenda.s"
+	@echo "... fourth/cadastro.o"
+	@echo "... fourth/cadastro.i"
+	@echo "... fourth/cadastro.s"
+	@echo "... fourth/main.o"
+	@echo "... fourth/main.i"
+	@echo "... fourth/main.s"
 .PHONY : help
 
 

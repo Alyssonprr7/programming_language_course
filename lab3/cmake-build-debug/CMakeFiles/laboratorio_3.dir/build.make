@@ -76,45 +76,60 @@ include CMakeFiles/laboratorio_3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/laboratorio_3.dir/flags.make
 
-CMakeFiles/laboratorio_3.dir/second/main.cpp.o: CMakeFiles/laboratorio_3.dir/flags.make
-CMakeFiles/laboratorio_3.dir/second/main.cpp.o: ../second/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/laboratorio_3.dir/second/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/laboratorio_3.dir/second/main.cpp.o -c "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/main.cpp"
+CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o: CMakeFiles/laboratorio_3.dir/flags.make
+CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o: ../fourth/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o -c "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/main.cpp"
 
-CMakeFiles/laboratorio_3.dir/second/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laboratorio_3.dir/second/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/main.cpp" > CMakeFiles/laboratorio_3.dir/second/main.cpp.i
+CMakeFiles/laboratorio_3.dir/fourth/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laboratorio_3.dir/fourth/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/main.cpp" > CMakeFiles/laboratorio_3.dir/fourth/main.cpp.i
 
-CMakeFiles/laboratorio_3.dir/second/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laboratorio_3.dir/second/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/main.cpp" -o CMakeFiles/laboratorio_3.dir/second/main.cpp.s
+CMakeFiles/laboratorio_3.dir/fourth/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laboratorio_3.dir/fourth/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/main.cpp" -o CMakeFiles/laboratorio_3.dir/fourth/main.cpp.s
 
-CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o: CMakeFiles/laboratorio_3.dir/flags.make
-CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o: ../second/agenda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o -c "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.cpp"
+CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o: CMakeFiles/laboratorio_3.dir/flags.make
+CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o: ../fourth/agenda.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o -c "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/agenda.cpp"
 
-CMakeFiles/laboratorio_3.dir/second/agenda.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laboratorio_3.dir/second/agenda.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.cpp" > CMakeFiles/laboratorio_3.dir/second/agenda.cpp.i
+CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/agenda.cpp" > CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.i
 
-CMakeFiles/laboratorio_3.dir/second/agenda.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laboratorio_3.dir/second/agenda.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/second/agenda.cpp" -o CMakeFiles/laboratorio_3.dir/second/agenda.cpp.s
+CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/agenda.cpp" -o CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.s
+
+CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o: CMakeFiles/laboratorio_3.dir/flags.make
+CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o: ../fourth/cadastro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o -c "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/cadastro.cpp"
+
+CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/cadastro.cpp" > CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.i
+
+CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/fourth/cadastro.cpp" -o CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.s
 
 # Object files for target laboratorio_3
 laboratorio_3_OBJECTS = \
-"CMakeFiles/laboratorio_3.dir/second/main.cpp.o" \
-"CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o"
+"CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o" \
+"CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o" \
+"CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o"
 
 # External object files for target laboratorio_3
 laboratorio_3_EXTERNAL_OBJECTS =
 
-laboratorio_3: CMakeFiles/laboratorio_3.dir/second/main.cpp.o
-laboratorio_3: CMakeFiles/laboratorio_3.dir/second/agenda.cpp.o
+laboratorio_3: CMakeFiles/laboratorio_3.dir/fourth/main.cpp.o
+laboratorio_3: CMakeFiles/laboratorio_3.dir/fourth/agenda.cpp.o
+laboratorio_3: CMakeFiles/laboratorio_3.dir/fourth/cadastro.cpp.o
 laboratorio_3: CMakeFiles/laboratorio_3.dir/build.make
 laboratorio_3: CMakeFiles/laboratorio_3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable laboratorio_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/lab3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable laboratorio_3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/laboratorio_3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
