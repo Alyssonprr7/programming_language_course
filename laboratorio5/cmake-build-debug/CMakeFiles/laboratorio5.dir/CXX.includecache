@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio5/second/edge.h
+vertex.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio5/second/vertex.h
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio5/second/path.cpp
+path.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio5/second/path.h
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio5/second/path.h
+vector
+-
+edge.h
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio5/second/edge.h
+iostream
+-
+
+/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/laboratorio5/second/vertex.h
+string
+-
+

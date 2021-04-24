@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/laboratorio5.dir/second/main.cpp.o CMakeFiles/laboratorio5.dir/second/vertex.cpp.o CMakeFiles/laboratorio5.dir/second/edge.cpp.o CMakeFiles/laboratorio5.dir/second/path.cpp.o -o laboratorio5 
