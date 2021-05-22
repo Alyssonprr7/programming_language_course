@@ -1,0 +1,4 @@
+/snap/clion/151/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2/cmake-build-debug
