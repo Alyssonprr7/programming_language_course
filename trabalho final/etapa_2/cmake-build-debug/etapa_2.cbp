@@ -88,6 +88,12 @@
 		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2/databaseOperations.h">
 			<Option target="etapa_2"/>
 		</Unit>
+		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2/httpRequests.cpp">
+			<Option target="etapa_2"/>
+		</Unit>
+		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2/httpRequests.h">
+			<Option target="etapa_2"/>
+		</Unit>
 		<Unit filename="/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2/main.cpp">
 			<Option target="etapa_2"/>
 		</Unit>

@@ -3,6 +3,6 @@ project(etapa_2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(etapa_2 main.cpp databaseOperations.cpp utils.cpp)
+add_executable(etapa_2 main.cpp databaseOperations.cpp utils.cpp httpRequests.cpp)
 
-target_link_libraries(etapa_2 mysqlcppconn)
+target_link_libraries(etapa_2 mysqlcppconn curl)

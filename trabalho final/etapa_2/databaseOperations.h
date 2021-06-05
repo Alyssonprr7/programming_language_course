@@ -16,13 +16,13 @@
 #include <iomanip>
 #include "utils.h"
 #include <vector>
+#include <iomanip>
 
 using namespace std;
 
 class DatabaseOperations {
     public:
         DatabaseOperations();
-//        ~DatabaseOperations();
         void getAllAppointmentsFromNow();
         void getAllDoctor();
         void getAllPacients();
@@ -30,10 +30,11 @@ class DatabaseOperations {
         bool pacientHaveAppointmentByDate(int cpf, string dateString);
         bool createPacient(int cpf, string name, int idade, string email);
         bool createAppointment(int cpf, int crm, string dateString);
-        bool updateAppointmentDate(int appointmentId, string newDateString);
+        pair<int, int> getDoctorAndPatientByAppointmentId(int appointmentId);
+        Utils::AllInfos updateAppointmentDate(int appointmentId, string newDateString);
         void activeFks(bool active);
-        bool deleteAppointment(int appointmentId);
-        vector<string> getEmailsFromTomorrowAppointments();
+        Utils::AllInfos  deleteAppointment(int appointmentId);
+        Utils::AllInfos getEmailsFromTomorrowAppointments();
 
 
     private:
@@ -41,8 +42,6 @@ class DatabaseOperations {
         sql::Connection *con;
         sql::Statement *stmt;
         sql::ResultSet *res;
-        sql::PreparedStatement  *prep_stmt;
-
 };
 
 

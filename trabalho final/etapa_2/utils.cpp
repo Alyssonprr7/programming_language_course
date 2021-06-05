@@ -25,18 +25,21 @@ string Utils::makeDate(int month, int day) {
     rawtime = mktime(timeinfo);
     timeinfo = localtime(&rawtime);
 
-    ///Aqui é para verificar se é uma data válida
+    ///Poderia trazer uma complexidade maior para essa parte do código, mas preferi
+    ///Deixar uma solução simples para uma POC
     if(dateIsValid(rawtime)) {
-        //TODO Fazer dar erro
+        cout << "A data inserida foi inválida, nova data: 10/10/2021" <<endl;
+        cout << "Caso a data não seja ideal, edite-a através do menu." <<endl;
+        return "2021-10-10";
     }
 
-    return getStringDate(timeinfo);
+    return getStringDate(timeinfo, "%Y-%m-%d");
 }
 
-string Utils::getStringDate(struct tm *date) {
+string Utils::getStringDate(struct tm *date, string format) {
     char buffer[80];
 
-    strftime(buffer,sizeof(buffer),"%Y-%m-%d",date);
+    strftime(buffer,sizeof(buffer),format.c_str(),date);
     string dateStr(buffer);
     return dateStr;
 }
@@ -50,4 +53,11 @@ time_t Utils::getNowRawtime() {
 
 bool Utils::dateIsValid(time_t dateToCompare) {
     return difftime(getNowRawtime(), dateToCompare) > 0;
+}
+
+string Utils::formatDateStringToBRL(string mySqlFormatDate) {
+    string year = mySqlFormatDate.substr(0,4);
+    string month = mySqlFormatDate.substr(5,2);
+    string day = mySqlFormatDate.substr(8,2);
+    return day+"/"+month+"/"+year;
 }

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/etapa_2.dir/databaseOperations.cpp.o"
+  "CMakeFiles/etapa_2.dir/httpRequests.cpp.o"
   "CMakeFiles/etapa_2.dir/main.cpp.o"
   "CMakeFiles/etapa_2.dir/utils.cpp.o"
   "etapa_2"

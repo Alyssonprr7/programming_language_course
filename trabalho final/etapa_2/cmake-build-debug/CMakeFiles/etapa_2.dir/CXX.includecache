@@ -31,6 +31,8 @@ utils.h
 /mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2/utils.h
 vector
 -
+iomanip
+-
 
 /mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/Linguagens de Programação/trabalho final/etapa_2/utils.h
 string
@@ -40,5 +42,7 @@ ctime
 iomanip
 -
 iostream
+-
+vector
 -
 

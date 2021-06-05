@@ -58,10 +58,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/151/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/152/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/151/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/152/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "/mnt/08e0e36e-8b56-4f13-a54a-68c5c4dd64bc/Pessoal/Faculdade/
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/151/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/152/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/151/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/152/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -169,6 +169,33 @@ databaseOperations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/etapa_2.dir/build.make CMakeFiles/etapa_2.dir/databaseOperations.cpp.s
 .PHONY : databaseOperations.cpp.s
 
+httpRequests.o: httpRequests.cpp.o
+
+.PHONY : httpRequests.o
+
+# target to build an object file
+httpRequests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/etapa_2.dir/build.make CMakeFiles/etapa_2.dir/httpRequests.cpp.o
+.PHONY : httpRequests.cpp.o
+
+httpRequests.i: httpRequests.cpp.i
+
+.PHONY : httpRequests.i
+
+# target to preprocess a source file
+httpRequests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/etapa_2.dir/build.make CMakeFiles/etapa_2.dir/httpRequests.cpp.i
+.PHONY : httpRequests.cpp.i
+
+httpRequests.s: httpRequests.cpp.s
+
+.PHONY : httpRequests.s
+
+# target to generate assembly for a file
+httpRequests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/etapa_2.dir/build.make CMakeFiles/etapa_2.dir/httpRequests.cpp.s
+.PHONY : httpRequests.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -235,6 +262,9 @@ help:
 	@echo "... databaseOperations.o"
 	@echo "... databaseOperations.i"
 	@echo "... databaseOperations.s"
+	@echo "... httpRequests.o"
+	@echo "... httpRequests.i"
+	@echo "... httpRequests.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/etapa_2.dir/main.cpp.o CMakeFiles/etapa_2.dir/databaseOperations.cpp.o CMakeFiles/etapa_2.dir/utils.cpp.o -o etapa_2  -lmysqlcppconn 
+/usr/bin/c++ -g CMakeFiles/etapa_2.dir/main.cpp.o CMakeFiles/etapa_2.dir/databaseOperations.cpp.o CMakeFiles/etapa_2.dir/utils.cpp.o CMakeFiles/etapa_2.dir/httpRequests.cpp.o -o etapa_2  -lmysqlcppconn -lcurl 

@@ -5,7 +5,12 @@ CMakeFiles/etapa_2.dir/databaseOperations.cpp.o: ../databaseOperations.cpp
 CMakeFiles/etapa_2.dir/databaseOperations.cpp.o: ../databaseOperations.h
 CMakeFiles/etapa_2.dir/databaseOperations.cpp.o: ../utils.h
 
+CMakeFiles/etapa_2.dir/httpRequests.cpp.o: ../httpRequests.cpp
+CMakeFiles/etapa_2.dir/httpRequests.cpp.o: ../httpRequests.h
+CMakeFiles/etapa_2.dir/httpRequests.cpp.o: ../utils.h
+
 CMakeFiles/etapa_2.dir/main.cpp.o: ../databaseOperations.h
+CMakeFiles/etapa_2.dir/main.cpp.o: ../httpRequests.h
 CMakeFiles/etapa_2.dir/main.cpp.o: ../main.cpp
 CMakeFiles/etapa_2.dir/main.cpp.o: ../utils.h
 
